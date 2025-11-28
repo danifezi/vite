@@ -17,5 +17,8 @@
   },
   "devDependencies": {
     "ws": "^8.18.3"
+  },
+  "dependencies": {
+    "@dataconnect/generated": "file:src/dataconnect-generated"
   }
 }

@@ -3,5 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "main": "src/index.js"
+  "main": "src/index.js",
+  "dependencies": {
+    "@dataconnect/generated": "file:src/dataconnect-generated"
+  }
 }

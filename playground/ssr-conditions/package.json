@@ -12,6 +12,7 @@
     "debug": "node --inspect-brk server"
   },
   "dependencies": {
+    "@dataconnect/generated": "file:src/dataconnect-generated",
     "@vitejs/test-ssr-conditions-external": "file:./external",
     "@vitejs/test-ssr-conditions-no-external": "file:./no-external"
   },

@@ -81,6 +81,7 @@
   },
   "//": "READ CONTRIBUTING.md to understand what to put under deps vs. devDeps!",
   "dependencies": {
+    "@dataconnect/generated": "file:src/dataconnect-generated",
     "esbuild": "^0.25.0",
     "fdir": "^6.5.0",
     "picomatch": "^4.0.3",
@@ -112,7 +113,6 @@
     "convert-source-map": "^2.0.0",
     "cors": "^2.8.5",
     "cross-spawn": "^7.0.6",
-    "obug": "^1.0.2",
     "dotenv": "^17.2.3",
     "dotenv-expand": "^12.0.3",
     "es-module-lexer": "^1.7.0",
@@ -127,6 +127,7 @@
     "mlly": "^1.8.0",
     "mrmime": "^2.0.1",
     "nanoid": "^5.1.6",
+    "obug": "^1.0.2",
     "open": "^10.2.0",
     "parse5": "^8.0.0",
     "pathe": "^2.0.3",

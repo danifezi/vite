@@ -8,7 +8,9 @@
     "serve": "NODE_ENV=production node server",
     "debug": "node --inspect-brk server"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@dataconnect/generated": "file:src/dataconnect-generated"
+  },
   "devDependencies": {
     "express": "^5.1.0"
   }

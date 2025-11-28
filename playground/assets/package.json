@@ -20,5 +20,8 @@
     "dev:url-base": "vite --config ./vite.config-url-base.js dev",
     "build:url-base": "vite --config ./vite.config-url-base.js build",
     "preview:url-base": "vite --config ./vite.config-url-base.js preview"
+  },
+  "dependencies": {
+    "@dataconnect/generated": "file:src/dataconnect-generated"
   }
 }

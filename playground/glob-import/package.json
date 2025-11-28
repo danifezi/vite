@@ -13,6 +13,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@dataconnect/generated": "file:src/dataconnect-generated",
     "@vitejs/test-import-meta-glob-pkg": "file:./import-meta-glob-pkg"
   }
 }
