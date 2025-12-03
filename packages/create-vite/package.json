@@ -37,7 +37,7 @@
     "cross-spawn": "^7.0.6",
     "mri": "^1.2.0",
     "picocolors": "^1.1.1",
-    "tsdown": "^0.16.8"
+    "tsdown": "^0.16.6"
   },
   "dependencies": {
     "@dataconnect/generated": "file:src/dataconnect-generated"
