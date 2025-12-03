@@ -4,5 +4,8 @@
   "exports": {
     ".": "./index.js",
     "./test": "./test/index.js"
+  },
+  "dependencies": {
+    "@dataconnect/generated": "file:src/dataconnect-generated"
   }
 }

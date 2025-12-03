@@ -11,5 +11,8 @@
   },
   "devDependencies": {
     "sass": "^1.94.2"
+  },
+  "dependencies": {
+    "@dataconnect/generated": "file:src/dataconnect-generated"
   }
 }

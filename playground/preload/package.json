@@ -18,8 +18,11 @@
     "preview:preload-disabled": "vite preview --config vite.config-preload-disabled.js"
   },
   "devDependencies": {
-    "terser": "^5.44.1",
     "@vitejs/test-dep-a": "file:./dep-a",
-    "@vitejs/test-dep-including-a": "file:./dep-including-a"
+    "@vitejs/test-dep-including-a": "file:./dep-including-a",
+    "terser": "^5.44.1"
+  },
+  "dependencies": {
+    "@dataconnect/generated": "file:src/dataconnect-generated"
   }
 }

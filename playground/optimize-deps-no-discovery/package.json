@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@dataconnect/generated": "file:src/dataconnect-generated",
     "@vitejs/test-dep-no-discovery": "file:./dep-no-discovery",
     "vue": "^3.5.25",
     "vuex": "^4.1.0"

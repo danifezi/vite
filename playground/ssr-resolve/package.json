@@ -8,6 +8,7 @@
     "debug": "node --inspect-brk ../../packages/vite/bin/vite build"
   },
   "dependencies": {
+    "@dataconnect/generated": "file:src/dataconnect-generated",
     "@vitejs/test-deep-import": "file:./deep-import",
     "@vitejs/test-entries": "file:./entries",
     "@vitejs/test-module-sync": "file:./pkg-module-sync",

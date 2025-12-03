@@ -10,7 +10,9 @@
     "test-stacktrace:off": "node test-stacktrace false",
     "test-stacktrace:on": "node test-stacktrace true"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@dataconnect/generated": "file:src/dataconnect-generated"
+  },
   "devDependencies": {
     "express": "^5.2.0"
   }
