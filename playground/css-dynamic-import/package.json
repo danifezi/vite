@@ -2,5 +2,8 @@
   "name": "@vitejs/test-css-dynamic-import",
   "private": true,
   "type": "module",
-  "version": "0.0.0"
+  "version": "0.0.0",
+  "dependencies": {
+    "@dataconnect/generated": "file:src/dataconnect-generated"
+  }
 }

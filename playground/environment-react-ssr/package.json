@@ -12,8 +12,11 @@
     "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3",
     "react": "^19.2.0",
+    "react-dom": "^19.2.0",
     "react-fake-client": "npm:react@^19.2.0",
-    "react-fake-server": "npm:react@^19.2.0",
-    "react-dom": "^19.2.0"
+    "react-fake-server": "npm:react@^19.2.0"
+  },
+  "dependencies": {
+    "@dataconnect/generated": "file:src/dataconnect-generated"
   }
 }

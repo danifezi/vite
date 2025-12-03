@@ -16,5 +16,8 @@
     "sass": "^1.94.2",
     "stylus": "^0.64.0",
     "sugarss": "^5.0.1"
+  },
+  "dependencies": {
+    "@dataconnect/generated": "file:src/dataconnect-generated"
   }
 }
